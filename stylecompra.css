@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+header{
+    text-decoration: none;
+    margin: auto;
+    background-color: #F15A24;
+    color: aliceblue;
+}
+
+.oferta-header{
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+}
+
+nav{
+    margin: auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-logo img{
+    max-width: 150px;
+    
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.links a{
+    text-decoration: none;
+    color: #F15A24;
+    position: relative;
+    padding-bottom: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.links a:hover{
+  font-weight: 600;
+    color: #603813;
+}
+
+section.produto{
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.separation{
+    display: flex;
+}
+
+.img-anuncio img{
+    width: 500px;
+}
+
+.nome{
+    background-image: url(img/Prancheta\ 1.png);
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+    justify-content: center;
+    padding: 1rem 2rem 1rem;
+}
+
+span{
+ color: #603813;   
+}
+
+.preco i{
+    color: red;
+    font-size: 20px;
+    font-weight: 300;
+    list-style: outside;
+}
+
+.preco{
+    font-size: 50px;
+    color: #F15A24;
+    line-height: 60px;
+    padding: 20px;
+}
+
+.preco h5{
+    max-width: 500px;
+    padding: 20px 0 0 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.btn-compra button{
+padding: 10px;
+width: 200px;
+background-color: #F15A24;
+color: #fff;
+border-radius: 10px;
+border: none;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.btn-compra button:hover{
+    background-color: #603813;
+}
+
+.home a{
+    color: #F15A24;
+    font-size: 50px;
+}
+
+
+#foater_content{
+    padding-top: 20px;
+    text-decoration: none;
+    background-color: #d8d8d8;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 0.30fr);
+    padding: 3rem 3.5rem;
+  }
+  
+  #foater_content{
+    color: #383838;
+  }
+  
+  #contacts img{
+    display: grid;
+    width: 100%;
+    padding: 0px 53px 0px 0px;
+  }
+  
+  #foater_contents{
+    margin-bottom: 0.75rem;
+  }
+  
+  .foater-list{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+    padding: 0px 0px 0px 60px;
+  }
+  
+  .foater-list .foater-link{
+    text-decoration: none;
+    color: #F15A24;
+    transition: all 0.3s ease;
+  }
+  
+  .foater-list .foater-link:hover{
+    color: #603813;
+  }
+
+  @media(max-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+        outline: none;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+        
+    }
+    
+    header{
+        text-decoration: none;
+        margin: auto;
+        background-color: #F15A24;
+        color: aliceblue;
+    }
+    
+    .oferta-header{
+        font-size: 7px;
+        display: flex;
+        padding: 1rem 1rem;
+        justify-content: space-between;
+    }
+    
+    nav{
+        margin: auto;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    .nav-logo img{
+        max-width: 90px;
+        
+    }
+    
+    .nav-links{
+        font-size: 10px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    
+    }
+    
+    .links a{
+        text-decoration: none;
+        color: #F15A24;
+        position: relative;
+        padding-bottom: 0.75rem;
+        transition: all 0.3s ease;
+    }
+    
+    .links a:hover{
+      font-weight: 600;
+        color: #603813;
+    }
+    
+    section.produto{
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .img-anuncio img{
+        max-width: 768px;
+        width: 500px;
+    }
+    
+    .separation{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nome{
+        background-image: url(img/Prancheta\ 1.png);
+        font-size: 25px;
+        color: #fff;
+        line-height: 30px;
+        justify-content: center;
+        padding: 1rem 2rem 1rem;
+    }
+    
+    span{
+     color: #603813;   
+    }
+    
+    .preco i{
+        padding: 20px 0 0 0;
+        color: red;
+        font-size: 20px;
+        font-weight: 300;
+        list-style: outside;
+    }
+    
+    .preco{
+        padding: 1rem 2rem 1rem;
+        font-size: 50px;
+        color: #F15A24;
+        line-height: 60px;
+    }
+    
+    .preco h5{
+        max-width: 500px;
+        padding: 20px 0 0 0;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    
+    .btn-compra button{
+    padding: 10px;
+    width: 200px;
+    background-color: #F15A24;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+    
+    .btn-compra button:hover{
+        background-color: #603813;
+    }
+    
+    .home a{
+        color: #F15A24;
+        font-size: 50px;
+    }
+    
+    
+    #foater_content{
+        padding: 1rem 2rem 1rem;
+        margin: auto;
+        text-decoration: none;
+        background-color: #d8d8d8;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      #foater_content{
+        color: #383838;
+      }
+      
+      #contacts img{
+        display: grid;
+        width: 200px;
+        padding: 0px 0px 0px 0px;
+      }
+      
+      #foater_contents{
+        margin-bottom: 0.75rem;
+      }
+      
+      .foater-list{
+        text-decoration: none;
+        gap: 0.75rem;
+        list-style: none;
+        padding: 20px 0px 0px 0px;
+      }
+      
+      .foater-list .foater-link{
+        text-decoration: none;
+        color: #F15A24;
+        transition: all 0.3s ease;
+      }
+      
+      .foater-list .foater-link:hover{
+        color: #603813;
+      }
+  }
