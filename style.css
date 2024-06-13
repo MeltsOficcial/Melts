@@ -22,13 +22,12 @@ header{
 }
 
 nav{
-    max-width: 1200px;
+    max-width: 1280px;
     margin: auto;
-    padding: 0rem 1rem;
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
     
 }
 
@@ -40,7 +39,6 @@ nav{
     list-style: none;
     display: flex;
     align-items: center;
-    padding-right: 20px;
     gap: 3rem;
 
 }
@@ -57,18 +55,9 @@ nav{
     color: #603813;
 }
 
-.btn{
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    background-color: #F15A24;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn:hover{
-background-color: #e4bfb2;
+.pesquisa{
+  max-width: 1200px;
+  margin: auto;
 }
 
 .catalogo-nav{
@@ -107,13 +96,12 @@ body{
 }
 
 .pesquisas{
-  max-width: 1200px;
     padding: 30px;
 }
 
 .search-container{
+  
     width: 400px;
-    margin: auto;
   }
   
   input#search-bar{
@@ -128,15 +116,10 @@ body{
    }
   .search-icon{
     position: relative;
-    float: right;
     width: 23px;
     height: 23px;
     top: -34px;
     right: 10px;
-  }
-
-  .search-icon img{
-    color: #F15A24;
   }
 
   .btn-pesquisa{
@@ -302,6 +285,7 @@ color: #603813;
 
 
 @media(max-width:768px) {
+
   *{
     padding: 0;
     margin: 0;
@@ -313,37 +297,38 @@ color: #603813;
 }
 
 header{
-    max-width: 1200px;
+    max-width: 1280px;
     margin: auto;
     background-color: #F15A24;
     color: aliceblue;
 }
 
-.oferta-header h2{
-    font-size: smaller;
+.oferta-header{
+    display: flex;
+    font-size: 8px;
+    padding: 0.50rem 0.50rem;
     justify-content: space-between;
 }
 
 nav{
-    max-width: 1200px;
+    max-width: 1280px;
     margin: auto;
-    padding: 0rem 1rem;
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
     
 }
 
 .nav-logo img{
-    max-width: 130px;
+  max-width: 100%;
+    width: 150px;
 }
 
 .nav-links{
     list-style: none;
     display: flex;
     align-items: center;
-    padding-right: 20px;
     gap: 3rem;
 
 }
@@ -360,18 +345,9 @@ nav{
     color: #603813;
 }
 
-.btn{
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    background-color: #F15A24;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn:hover{
-background-color: #e4bfb2;
+.pesquisa{
+  max-width: 1200px;
+  margin: auto;
 }
 
 .catalogo-nav{
@@ -380,6 +356,7 @@ background-color: #e4bfb2;
   display: flex;
   list-style: none;
 padding: 15px 15px 15px 15px;
+font-size: 13px;
   align-items: center;
   align-content: center;
   justify-content: space-between;
@@ -410,18 +387,17 @@ body{
 }
 
 .pesquisas{
-  max-width: 1200px;
     padding: 30px;
 }
 
 .search-container{
-  display: none;
+  
     width: 400px;
-    margin: auto;
   }
   
   input#search-bar{
     margin: auto;
+    width: 100%;
     height: 45px;
     padding: 0 20px;
     font-size: 1rem;
@@ -431,15 +407,10 @@ body{
    }
   .search-icon{
     position: relative;
-    float: right;
     width: 23px;
     height: 23px;
     top: -34px;
     right: 10px;
-  }
-
-  .search-icon img{
-    color: #F15A24;
   }
 
   .btn-pesquisa{
@@ -605,7 +576,6 @@ color: #603813;
 }
 
 @media(max-width:425px){
-
   *{
     padding: 0;
     margin: 0;
@@ -617,35 +587,40 @@ color: #603813;
 }
 
 header{
+    max-width: 425px;
     margin: auto;
     background-color: #F15A24;
     color: aliceblue;
 }
 
-.oferta-header h2{
-    font-size: smaller;
+.oferta-header{
+    display: flex;
+    font-size: 8px;
     justify-content: space-between;
 }
 
 nav{
+    max-width: 425px;
     margin: auto;
-    padding: 0rem 1rem;
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
     
 }
 
 .nav-logo img{
+  max-width: 100%;
+    width: 80px;
 }
 
 .nav-links{
-
     list-style: none;
     display: flex;
     align-items: center;
     gap: 3rem;
+    font-size: 10px;
+
 }
 
 .links a{
@@ -660,25 +635,18 @@ nav{
     color: #603813;
 }
 
-.btn{
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    background-color: #F15A24;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn:hover{
-background-color: #e4bfb2;
+.pesquisa{
+  max-width: 425px;
+  margin: auto;
 }
 
 .catalogo-nav{
+  max-width: 425px;
   margin: auto;
   display: flex;
   list-style: none;
-  padding: 15px 15px 15px 0px;
+  padding: 15px;
+  font-size: 8px;
   align-items: center;
   align-content: center;
   justify-content: space-between;
@@ -687,7 +655,6 @@ background-color: #e4bfb2;
 
 .catalogo-nav a{
   color: #fff;
-  padding: 20px;
   align-items: center;
   transition: all 0.3s ease;
 }
@@ -698,12 +665,13 @@ background-color: #e4bfb2;
 }
 
 body{
-  max-width: 425px;
+    max-width: 1200px;
     margin: auto;
 }
 
 .banner img{
     width: 100%;
+    max-width: 425px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -713,13 +681,13 @@ body{
 }
 
 .search-container{
-  display: none;
+  
     width: 400px;
-    margin: auto;
   }
   
   input#search-bar{
     margin: auto;
+    width: 100%;
     height: 45px;
     padding: 0 20px;
     font-size: 1rem;
@@ -729,15 +697,10 @@ body{
    }
   .search-icon{
     position: relative;
-    float: right;
     width: 23px;
     height: 23px;
     top: -34px;
     right: 10px;
-  }
-
-  .search-icon img{
-    color: #F15A24;
   }
 
   .btn-pesquisa{
@@ -752,8 +715,8 @@ body{
 
   .titulo{
     padding: 10px 0px 10px 0px;
+    font-size: 8px;
     color: #fff;
-    font-size: 10px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -766,9 +729,9 @@ body{
 
 .catálogos{
   display: flex;
-  padding: 20px 0;
+  padding: 0px 0;
   justify-content: center;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .catálogos h3{
@@ -787,7 +750,7 @@ span{
 }
 
 .chocolates h2{
-  font-size: large;
+  font-size: 13px;
   font-weight: 300;
 }
 
@@ -807,6 +770,7 @@ color: #603813;
   background-image: url(img/Prancheta\ 1.png);
 }
 .shop-content{
+  max-width: 1200px;
   padding: 0px 2px 80px 20px;
   margin: auto;
   display: grid;
@@ -816,6 +780,7 @@ color: #603813;
 
 .shop-content img{
   width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -861,34 +826,20 @@ color: #603813;
   background-color: #eca186;
 }
 
-#foater_content{
-  background-color: #e9e9e9;
+footer{
+  max-width: 425px;
+  padding: 0px 190px 0px 0px;
+  margin: auto;
   display: grid;
-  justify-content: space-between;
-  grid-template-columns: repeat(3, 0.30fr);
-  padding: 3rem 3.5rem;
+  grid-template-columns: repeat(auto-fit,minmax(220px, auto));
 }
 
 #foater_content{
   color: #383838;
 }
 
-#contacts img{
-  display: grid;
-  width: 100%;
-  padding: 0px 53px 0px 0px;
-}
-
 #foater_contents{
   margin-bottom: 0.75rem;
-}
-
-.foater-list{
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  list-style: none;
-  padding: 0px 0px 0px 60px;
 }
 
 .foater-list .foater-link{
