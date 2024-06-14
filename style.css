@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     outline: none;
-    border: none;
     text-decoration: none;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
@@ -13,26 +12,25 @@ html{
 }
 
 header{
-    max-width: 1200px;
     margin: auto;
     background-color: #F15A24;
     color: aliceblue;
+    background-image: url(img/Prancheta\ 1.png);
 }
 
 .oferta-header{
     display: flex;
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
     justify-content: space-between;
+    font-size: 10px;
 }
 
 nav{
-    max-width: 1280px;
     margin: auto;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .nav-logo img{
@@ -60,20 +58,19 @@ nav{
 }
 
 .pesquisa{
-  max-width: 1200px;
   margin: auto;
 }
 
 .catalogo-nav{
-  max-width: 1200px;
   margin: auto;
   display: flex;
   list-style: none;
-padding: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
   align-items: center;
   align-content: center;
   justify-content: space-between;
   background-color: #F15A24;
+  background-image: url(img/Prancheta\ 1.png);
 }
 
 .catalogo-nav a{
@@ -88,53 +85,38 @@ padding: 15px 15px 15px 15px;
 }
 
 body{
-    max-width: 1200px;
     margin: auto;
 }
 
 .banner img{
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
 }
 
-.pesquisas{
-    padding: 30px;
+.search-box form{
+  display: flex;
+  align-items: center;
 }
 
-.search-container{
-  
-    width: 400px;
-  }
-  
-  input#search-bar{
-    margin: auto;
-    width: 100%;
-    height: 45px;
-    padding: 0 20px;
-    font-size: 1rem;
-    border: 1px solid #D0CFCE;
-    outline: none;
+.search-box input{
+  background-color: #cacaca;
+  border-color: #F15A24;
+  border-style: inherit;
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+  width: 600px;
+}
 
-   }
-  .search-icon{
-    position: relative;
-    width: 23px;
-    height: 23px;
-    top: -34px;
-    right: 10px;
-  }
+.search-box img{
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0;
+  float: inline-end;
+  background-image: url(img/Prancheta\ 1.png);
+}
 
-  .btn-pesquisa{
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    background-color: #F15A24;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
 
   .titulo{
     padding: 10px 0px 10px 0px;
@@ -151,14 +133,14 @@ body{
 
 .catálogos{
   display: flex;
-  padding: 20px 0;
+  padding: 10px;
   justify-content: center;
   
 }
 
 .catálogos h3{
   align-items: center;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   
 }
 
@@ -172,7 +154,7 @@ span{
 }
 
 .chocolates h2{
-  font-size: large;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -181,7 +163,7 @@ color: #603813;
 }
 
 .chocolates{
-  font-size: large;
+  font-size: 40px;
   padding: 4rem 1rem;
   color: #F15A24;
 }
@@ -192,23 +174,24 @@ color: #603813;
   background-image: url(img/Prancheta\ 1.png);
 }
 .shop-content{
-  max-width: 1200px;
   padding: 0px 2px 80px 20px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(220px, auto));
   gap: 1.5rem;
+  color: white;
 }
 
 .shop-content img{
   width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
 }
 
 .product-box{
   position: relative;
+  background-color: #F15A24;
+  background-image: url(img/Prancheta\ 1.png);
 }
 
 .product-box:hover{
@@ -221,9 +204,11 @@ color: #603813;
   width: 100%;
   height: auto;
   margin-bottom: 0.5rem;
+  padding: 0px 0px 0px 0px
 }
 
 .nome{
+  padding: 0px 0px 0px 10px;
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -231,6 +216,9 @@ color: #603813;
 }
 
 .preco{
+  padding: 0px 0px 0px 10px;
+  color: white;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -238,7 +226,7 @@ color: #603813;
   position: absolute;
   bottom: 0;
   right: 0;
-  background: #F15A24;
+  background: #383838;
   color: #fff;
   padding: 10px;
   cursor: pointer;
@@ -252,8 +240,8 @@ color: #603813;
   background-color: #e9e9e9;
   display: grid;
   justify-content: space-between;
-  grid-template-columns: repeat(3, 0.30fr);
-  padding: 3rem 3.5rem;
+  grid-template-columns: repeat(4, 0.30fr);
+  padding: 3rem 2rem;
 }
 
 #foater_content{
@@ -262,7 +250,7 @@ color: #603813;
 
 #contacts img{
   display: grid;
-  width: 100%;
+  width: 90%;
   padding: 0px 53px 0px 0px;
 }
 
@@ -301,7 +289,6 @@ color: #603813;
 }
 
 header{
-    max-width: 1280px;
     margin: auto;
     background-color: #F15A24;
     color: aliceblue;
@@ -315,13 +302,35 @@ header{
 }
 
 nav{
-    max-width: 1280px;
     margin: auto;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
+}
+
+.search-box form{
+  display: flex;
+  align-items: center;
+}
+
+.search-box input{
+  background-color: #cacaca;
+  border-color: #F15A24;
+  border-style: inherit;
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.search-box img{
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0;
+  float: inline-end;
+  background-image: url(img/Prancheta\ 1.png);
 }
 
 .nav-logo img{
@@ -350,12 +359,10 @@ nav{
 }
 
 .pesquisa{
-  max-width: 1200px;
   margin: auto;
 }
 
 .catalogo-nav{
-  max-width: 1200px;
   margin: auto;
   display: flex;
   list-style: none;
@@ -379,53 +386,14 @@ font-size: 13px;
 }
 
 body{
-    max-width: 1200px;
     margin: auto;
 }
 
 .banner img{
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
 }
-
-.pesquisas{
-    padding: 30px;
-}
-
-.search-container{
-  
-    width: 400px;
-  }
-  
-  input#search-bar{
-    margin: auto;
-    width: 100%;
-    height: 45px;
-    padding: 0 20px;
-    font-size: 1rem;
-    border: 1px solid #D0CFCE;
-    outline: none;
-
-   }
-  .search-icon{
-    position: relative;
-    width: 23px;
-    height: 23px;
-    top: -34px;
-    right: 10px;
-  }
-
-  .btn-pesquisa{
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    background-color: #F15A24;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
 
   .titulo{
     padding: 10px 0px 10px 0px;
@@ -483,7 +451,6 @@ color: #603813;
   background-image: url(img/Prancheta\ 1.png);
 }
 .shop-content{
-  max-width: 1200px;
   padding: 0px 2px 80px 2px;
   margin: auto;
   display: grid;
@@ -493,7 +460,6 @@ color: #603813;
 
 .shop-content img{
   width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -592,7 +558,6 @@ color: #603813;
 }
 
 header{
-    max-width: 425px;
     margin: auto;
     background-color: #F15A24;
     color: aliceblue;
@@ -605,13 +570,36 @@ header{
 }
 
 nav{
-    max-width: 425px;
     margin: auto;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
+}
+
+.search-box form{
+  display: none;
+  display: flex;
+  align-items: center;
+}
+
+.search-box input{
+  display: none;
+  background-color: none;
+  border-color: none;
+  padding: 10px;
+  width: 10px;
+}
+
+.search-box img{
+  display: none;
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  float: inline-end;
+  background-image: url(img/Prancheta\ 1.png);
 }
 
 .nav-logo img{
@@ -623,7 +611,7 @@ nav{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
     font-size: 10px;
 
 }
@@ -640,13 +628,8 @@ nav{
     color: #603813;
 }
 
-.pesquisa{
-  max-width: 425px;
-  margin: auto;
-}
 
 .catalogo-nav{
-  max-width: 425px;
   margin: auto;
   display: flex;
   list-style: none;
@@ -670,53 +653,14 @@ nav{
 }
 
 body{
-    max-width: 1200px;
     margin: auto;
 }
 
 .banner img{
     width: 100%;
-    max-width: 425px;
     margin: 0 auto;
     justify-content: center;
 }
-
-.pesquisas{
-    padding: 30px;
-}
-
-.search-container{
-  
-    width: 400px;
-  }
-  
-  input#search-bar{
-    margin: auto;
-    width: 100%;
-    height: 45px;
-    padding: 0 20px;
-    font-size: 1rem;
-    border: 1px solid #D0CFCE;
-    outline: none;
-
-   }
-  .search-icon{
-    position: relative;
-    width: 23px;
-    height: 23px;
-    top: -34px;
-    right: 10px;
-  }
-
-  .btn-pesquisa{
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    background-color: #F15A24;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
 
   .titulo{
     padding: 10px 0px 10px 0px;
@@ -775,7 +719,6 @@ color: #603813;
   background-image: url(img/Prancheta\ 1.png);
 }
 .shop-content{
-  max-width: 1200px;
   padding: 0px 2px 80px 2px;
   margin: auto;
   display: grid;
@@ -785,7 +728,6 @@ color: #603813;
 
 .shop-content img{
   width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
 }
