@@ -213,6 +213,7 @@ color: #603813;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 .preco{
@@ -276,7 +277,7 @@ color: #603813;
 }
 
 
-@media(max-width:768px) {
+@media(max-width:800px) {
 
   *{
     padding: 0;
@@ -367,7 +368,7 @@ nav{
   display: flex;
   list-style: none;
 padding: 15px 15px 15px 15px;
-font-size: 13px;
+font-size: 19px;
   align-items: center;
   align-content: center;
   justify-content: space-between;
@@ -405,11 +406,12 @@ body{
   }
   
   .titulo span{
-    color: #603813;
+    color: #fff;
 }
 
 .catálogos{
   display: flex;
+  font-size: 19px;
   padding: 20px 0;
   justify-content: center;
   
@@ -417,7 +419,7 @@ body{
 
 .catálogos h3{
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   
 }
 
@@ -431,7 +433,7 @@ span{
 }
 
 .chocolates h2{
-  font-size: large;
+  font-size: 30px;
   font-weight: 300;
 }
 
@@ -440,8 +442,8 @@ color: #603813;
 }
 
 .chocolates{
-  font-size: large;
-  padding: 4rem 1rem;
+  font-size: 30px;
+  padding: 2rem 1rem;
   color: #F15A24;
 }
 
@@ -485,6 +487,7 @@ color: #603813;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 .preco{
@@ -495,7 +498,7 @@ color: #603813;
   position: absolute;
   bottom: 0;
   right: 0;
-  background: #F15A24;
+  background: #383838;
   color: #fff;
   padding: 10px;
   cursor: pointer;
@@ -508,6 +511,7 @@ color: #603813;
 #foater_content{
   padding: 1rem 2rem 1rem;
   margin: auto;
+  font-size: 19px;
   text-decoration: none;
   background-color: #d8d8d8;
   display: flex;
@@ -526,6 +530,7 @@ color: #603813;
 
 #foater_contents{
   margin-bottom: 0.75rem;
+  
 }
 
 .foater-list{
@@ -533,12 +538,14 @@ color: #603813;
   gap: 0.75rem;
   list-style: none;
   padding: 20px 0px 0px 0px;
+  
 }
 
 .foater-list .foater-link{
   text-decoration: none;
   color: #F15A24;
   transition: all 0.3s ease;
+  
 }
 
 .foater-list .foater-link:hover{
@@ -612,7 +619,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 1rem;
-    font-size: 10px;
+    font-size: 12px;
 
 }
 
@@ -634,7 +641,7 @@ nav{
   display: flex;
   list-style: none;
   padding: 15px;
-  font-size: 8px;
+  font-size: 11px;
   align-items: center;
   align-content: center;
   justify-content: space-between;
@@ -664,7 +671,7 @@ body{
 
   .titulo{
     padding: 10px 0px 10px 0px;
-    font-size: 8px;
+    font-size: 10px;
     color: #fff;
     text-align: center;
     justify-content: center;
@@ -673,14 +680,14 @@ body{
   }
   
   .titulo span{
-    color: #603813;
+    color: #fff;
 }
 
 .catálogos{
   display: flex;
   padding: 0px 0;
   justify-content: center;
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .catálogos h3{
@@ -699,7 +706,7 @@ span{
 }
 
 .chocolates h2{
-  font-size: 13px;
+  font-size: 22px;
   font-weight: 300;
 }
 
@@ -708,8 +715,8 @@ color: #603813;
 }
 
 .chocolates{
-  font-size: large;
-  padding: 4rem 1rem;
+  font-size: 25px;
+  padding: 2rem 1rem;
   color: #F15A24;
 }
 
@@ -753,6 +760,7 @@ color: #603813;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 .preco{
@@ -763,7 +771,7 @@ color: #603813;
   position: absolute;
   bottom: 0;
   right: 0;
-  background: #F15A24;
+  background: #383838;
   color: #fff;
   padding: 10px;
   cursor: pointer;
